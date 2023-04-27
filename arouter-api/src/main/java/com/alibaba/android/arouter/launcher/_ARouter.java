@@ -58,6 +58,12 @@ final class _ARouter {
     private _ARouter() {
     }
 
+    /**
+     *
+     *
+     * @param application
+     * @return
+     */
     protected static synchronized boolean init(Application application) {
         mContext = application;
         LogisticsCenter.init(mContext, executor);
